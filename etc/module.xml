@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this module to newer
+ * versions in the future.
+ *
+ * @category  Lof
+ * @package   Lof\GiftSalesRule
+ * @author    Landofcoder <landofcoder@gmail.com>
+ * @copyright 2020 Landofcoder
+ * @license   http://www.landofcoder.com/LICENSE-1.0.html
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Lof_GiftSalesRuleCompatible" setup_version="1.0.0">
+        <sequence>
+            <module name="Lof_GiftSalesRule"/>
+            <module name="Lof_RewardPointsRule"/>
+        </sequence>
+    </module>
+</config>

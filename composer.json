@@ -1,0 +1,26 @@
+{
+    "name": "landofcoder/module-gift-sales-rule-compatible",
+    "type": "magento2-module",
+    "description": "Extension of Magento2 Sales Rule to provide gifted (free) products.",
+    "keywords": ["magento2", "salesrule", "gift", "cart", "free"],
+    "license": "OSL-3.0",
+    "require": {
+        "landofcoder/module-gift-sales-rule":"*"
+    },
+    "authors":[
+        {
+            "name": "Landofcoder",
+            "email": "landofcoder@gmail.com",
+            "homepage": "https://landofcoder.com",
+            "role": "Extension Provider"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\GiftSalesRuleCompatible\\": ""
+        }
+    }
+}
